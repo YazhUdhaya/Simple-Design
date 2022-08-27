@@ -1,0 +1,112 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container-fluid{
+    width:100%;
+    height: 100vh;
+    flex:1;
+    flex-direction: column;
+}
+.navbar__header{
+    
+    display:flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.navbar__header h4{
+    background: -webkit-linear-gradient(#ff8989, #5763f4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.navibar__tem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.navbar__item ul li{
+    text-decoration: none;
+    display: inline-block;
+    margin:10px;
+    padding-left:50x ;
+    color:#686869;
+}
+.navbar__item ul li:hover{
+    color:#ff8989;
+   
+}
+.navbar__btn button{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    border-radius: 25px;
+    border:1px solid;
+    padding: 10px;
+    color:white;
+    background-color: Transparent;
+    background-image: linear-gradient(45deg, #ff8989 5%,#5763f4 95% );
+}
+.navbar__btn button:hover{
+    box-shadow: 0 0 8px rgba(0,0,0,0.3);
+    color:#ff8989;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50%;
+    margin-top: 100px;
+    background-color: transparent;
+}
+.box__details{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    
+}
+.box__details-header h3{
+      margin: 20px 0;
+      letter-spacing: 2px;
+}
+.box__details-data p{
+    margin: 20px 0;
+    letter-spacing: 1px;
+}
+.box__details-icon{
+    margin: 20px 0;
+    
+}
+.box__details-btn button{
+    border-radius:10px;
+    background: -webkit-linear-gradient(#ff8989, #5763f4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: 1px solid;
+    padding: 10px;
+}
+/* .box__details-btn button i:hover{
+     -webkit-box-shadow:0 0 5px rgba(#ff8989,#5763f4,#686869, 0.2);
+} */
+.box__details-btn button i{
+    margin: 10px;
+    border:1px solid linear-gradient(#ff8989, #5763f4);
+    border-radius: 10px;
+}
+.box__img img{
+    height: 430px;
+    width:480px;
+     display: flex;
+    justify-content:space-between;
+    align-items: center;
+    
+}
+.box__img img:hover{
+    border-radius: 40px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.3);
+    translate: 3px;
+}
